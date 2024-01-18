@@ -6,6 +6,9 @@
 
 Set up a local MySQL server effortlessly with this guide, perfect for practicing MySQL scripts without the need for an external server. Simply install XAMPP and DBeaver, and you're ready to run your SQL queries and hone your skills as much as you desire.
 
+
+To download Xampp  [CLICK HERE](https://www.apachefriends.org/download.html)
+TO download DBeaver [CLICK HERE]([https://www.apachefriends.org/download.html](https://dbeaver.io/download/))
 -> Create connection:
 
 ![image](https://github.com/amirh3sam/CreateDataBase_Localhost/assets/69331074/3578cb50-f98d-4f6f-a542-c1fed9482d5c)

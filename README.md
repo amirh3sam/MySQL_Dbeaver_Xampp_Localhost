@@ -1,18 +1,16 @@
 # CreateDataBase_Localhost
 
-                                   ![mysql](https://github.com/amirh3sam/CreateDataBase_Localhost/assets/69331074/eae125f8-e240-4c90-9017-23ca62ae8a46)
+
+  ![mysql](https://github.com/amirh3sam/CreateDataBase_Localhost/assets/69331074/eae125f8-e240-4c90-9017-23ca62ae8a46)
 
 
 Set up a local MySQL server effortlessly with this guide, perfect for practicing MySQL scripts without the need for an external server. Simply install XAMPP and DBeaver, and you're ready to run your SQL queries and hone your skills as much as you desire.
 
-create connection
+create connection:
 
 ![image](https://github.com/amirh3sam/CreateDataBase_Localhost/assets/69331074/3578cb50-f98d-4f6f-a542-c1fed9482d5c)
 
-
-
-
-choose mySQL dataBase
+click mySQL dataBase:
 
 ![image](https://github.com/amirh3sam/CreateDataBase_Localhost/assets/69331074/9383b9b6-c56e-4a67-8db7-174125e8d9ab)
 
@@ -85,7 +83,6 @@ VALUES ('Cardinal', 'Tom B. Erichsen', 'Skagen 21', 'Stavanger', '4006', 'Norway
  ``` SELECT * FROM PERSONS;```
 
  ![image](https://github.com/amirh3sam/CreateDataBase_Localhost/assets/69331074/1d04f0f6-7f25-4ee8-a0db-3c1b654645fd)
-
 
 
 

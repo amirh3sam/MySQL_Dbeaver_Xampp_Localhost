@@ -14,7 +14,7 @@ click mySQL dataBase:
 
 ![image](https://github.com/amirh3sam/CreateDataBase_Localhost/assets/69331074/9383b9b6-c56e-4a67-8db7-174125e8d9ab)
 
-leave the setting like the picture bloew
+leave the setting like the picture blow  : username is "root" , no password and port is 3306 .
 
 ![image](https://github.com/amirh3sam/CreateDataBase_Localhost/assets/69331074/bdbd7da7-7166-423f-bc0a-59c9bd78a314)
 

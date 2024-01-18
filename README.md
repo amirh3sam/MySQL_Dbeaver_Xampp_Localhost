@@ -1,6 +1,6 @@
   # Create mySQL server on Localhost with Xampp
 
- ![mysql](https://github.com/amirh3sam/CreateDataBase_Localhost/assets/69331074/eae125f8-e240-4c90-9017-23ca62ae8a46)
+![mysql](https://github.com/amirh3sam/MySQL_Dbeaver_Xampp_Localhost/assets/69331074/29f75ea2-1bec-4e0e-98c7-ba90e5f12aaf)
 
  
 

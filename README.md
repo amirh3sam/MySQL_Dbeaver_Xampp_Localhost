@@ -73,6 +73,15 @@ CREATE TABLE Persons (
     City varchar(255)
 );
 ```
+```JavaScript
+CREATE TABLE Persons (
+    PersonID int,
+    LastName varchar(255),
+    FirstName varchar(255),
+    Address varchar(255),
+    City varchar(255)
+); 
+```
 ![image](https://github.com/amirh3sam/CreateDataBase_Localhost/assets/69331074/283f9ea0-9da1-47c6-ab92-61e00e65c7e8)
 
 And run the code.
@@ -96,13 +105,20 @@ INSERT INTO Persons (CustomerName, ContactName, Address, City, PostalCode, Count
 VALUES ('Cardinal', 'Tom B. Erichsen', 'Skagen 21', 'Stavanger', '4006', 'Norway');
 ```
 
+```Javascript
+INSERT INTO Persons (PersonID, LastName, FirstName, Address, City)
+VALUES ('12', 'Johnson', 'David', '123 St', 'Atlanta');
+```
+
 ![image](https://github.com/amirh3sam/CreateDataBase_Localhost/assets/69331074/cde0f907-1898-4a30-b96d-272e41996b75)
 
 Execute the code, and you'll successfully add our initial data into the table.
 
 Now We can now fetch the data:
  
- ``` SELECT * FROM PERSONS;```
+ ```Javascript
+SELECT * FROM PERSONS; 
+ ```
 
  ![image](https://github.com/amirh3sam/CreateDataBase_Localhost/assets/69331074/1d04f0f6-7f25-4ee8-a0db-3c1b654645fd)
 

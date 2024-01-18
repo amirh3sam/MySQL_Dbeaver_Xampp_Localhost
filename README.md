@@ -28,7 +28,7 @@ after you create database right click on your database and SQL editor then Open 
 
 ![image](https://github.com/amirh3sam/CreateDataBase_Localhost/assets/69331074/f90f8b72-efd7-4e57-948c-82ca9f00dbbc)
 
-this is one way that you can start create tables and insert data into it and retrived the data: 
+This provides a method to initiate the creation of tables, insert data into them, and retrieve the stored information:
 
 if we want to create the table by typying the script is a good practive to do...
 
@@ -54,14 +54,15 @@ CREATE TABLE Persons (
 ```
 ![image](https://github.com/amirh3sam/CreateDataBase_Localhost/assets/69331074/283f9ea0-9da1-47c6-ab92-61e00e65c7e8)
 
-and run the code
+and run the code.
 
 after you run the code you will see this 
 
 ![image](https://github.com/amirh3sam/CreateDataBase_Localhost/assets/69331074/572aa68d-6145-43ab-a933-eea5465b440d)
 
 
-now its time to insert :The MySQL INSERT INTO Statement:
+now its time to insert data into the Table :
+The MySQL INSERT INTO Statement:
 
 ```Javascript
 INSERT INTO table_name (column1, column2, column3, ...)
@@ -78,7 +79,7 @@ VALUES ('Cardinal', 'Tom B. Erichsen', 'Skagen 21', 'Stavanger', '4006', 'Norway
 
  then run the code now we add our first data into the table .
 
- now we can retrive the data :
+ now we can retrieve the data :
  
  ``` SELECT * FROM PERSONS;```
 
@@ -86,7 +87,7 @@ VALUES ('Cardinal', 'Tom B. Erichsen', 'Skagen 21', 'Stavanger', '4006', 'Norway
 
 
 
-second way is through your browser click on admin infront of SQL
+second way is through your browser click on admin infront of MYSQL on Xampp app:
 
 
 ![image](https://github.com/amirh3sam/CreateDataBase_Localhost/assets/69331074/3aff9540-b909-417e-b7d2-43e5064e6952)

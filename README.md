@@ -73,15 +73,7 @@ CREATE TABLE Persons (
     City varchar(255)
 );
 ```
-```JavaScript
-CREATE TABLE Persons (
-    PersonID int,
-    LastName varchar(255),
-    FirstName varchar(255),
-    Address varchar(255),
-    City varchar(255)
-); 
-```
+
 ![image](https://github.com/amirh3sam/CreateDataBase_Localhost/assets/69331074/283f9ea0-9da1-47c6-ab92-61e00e65c7e8)
 
 And run the code.
@@ -104,6 +96,8 @@ For example :
 INSERT INTO Persons (CustomerName, ContactName, Address, City, PostalCode, Country)
 VALUES ('Cardinal', 'Tom B. Erichsen', 'Skagen 21', 'Stavanger', '4006', 'Norway');
 ```
+
+I insert this data in our table :
 
 ```Javascript
 INSERT INTO Persons (PersonID, LastName, FirstName, Address, City)

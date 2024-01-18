@@ -1,4 +1,4 @@
-# Create mySQL server on Localhost
+#Create mySQL server on Localhost
 
 
   ![mysql](https://github.com/amirh3sam/CreateDataBase_Localhost/assets/69331074/eae125f8-e240-4c90-9017-23ca62ae8a46)

@@ -108,7 +108,7 @@ VALUES ('12', 'Johnson', 'David', '123 St', 'Atlanta');
 
 Execute the code, and you'll successfully add our initial data into the table.
 
-Now We can now fetch the data:
+We can now fetch the data:
  
  ```Javascript
 SELECT * FROM PERSONS; 

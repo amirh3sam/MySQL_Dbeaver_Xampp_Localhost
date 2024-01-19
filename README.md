@@ -25,9 +25,7 @@ Set up a local MySQL server effortlessly with this guide, perfect for practicing
 
 📂 To download [Vscode CLICK HERE](https://code.visualstudio.com/download)
 
-📂 TO download [IntelliJ CLICK HERE](https://www.jetbrains.com/idea/download/)
-
-After downloading both, 
+📂 To download [IntelliJ CLICK HERE](https://www.jetbrains.com/idea/download/)
 
 ## Start Xampp
 START XAMPP CONTORL : make sure to click on "Start" in front of Apache and MySQL.

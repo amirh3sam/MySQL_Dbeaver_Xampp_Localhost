@@ -35,6 +35,7 @@ Now, you should have a screen that looks like this:
 
 ![image](https://github.com/amirh3sam/Create-_mySQL_server_on_Localhost/assets/69331074/627fe72c-8a92-498d-a5bd-4366a47944b6)
 
+[⬆️Back to Top](#Create-mySQL-server-on-Localhost-with-Xampp)
 
 ## Start Dbeaver
 
@@ -64,6 +65,8 @@ after you create database right click on your database and SQL editor then Open 
 This provides a method to initiate the creation of tables, insert data into them, and retrieve the stored information:
 
 If we intend to create the table by typing the script, it is a good practice to do so.
+
+[⬆️Back to Top](#Create-mySQL-server-on-Localhost-with-Xampp)
 
 ## Create Table
  The MySQL CREATE TABLE Statement:
@@ -95,6 +98,8 @@ After executing the code, you will observe this.
 
 ![image](https://github.com/amirh3sam/CreateDataBase_Localhost/assets/69331074/572aa68d-6145-43ab-a933-eea5465b440d)
 
+[⬆️Back to Top](#Create-mySQL-server-on-Localhost-with-Xampp)
+
 ## Insert to Table
 It's time to populate the table with data using the MySQL INSERT INTO statement
 
@@ -118,6 +123,8 @@ VALUES ('12', 'Johnson', 'David', '123 St', 'Atlanta');
 ```
 
 ![image](https://github.com/amirh3sam/CreateDataBase_Localhost/assets/69331074/cde0f907-1898-4a30-b96d-272e41996b75)
+
+[⬆️Back to Top](#Create-mySQL-server-on-Localhost-with-Xampp)
 
 ## Execute the code
 
@@ -166,6 +173,9 @@ And it will lead you to a screen displaying the results:
 ![image](https://github.com/amirh3sam/CreateDataBase_Localhost/assets/69331074/180277fc-cae6-45e4-9071-993767f49b83)
 
 In this scenario, DBeaver is not required either.
+
+[⬆️Back to Top](#Create-mySQL-server-on-Localhost-with-Xampp)
+
 ---------------------------------------------------------------------------------------------------------------------------------------------
 ## HR database
 ✔️ add HR database to our local host:
@@ -299,6 +309,8 @@ easy way to run all at one time is to select all of them then click on thrid run
 
 ![image](https://github.com/amirh3sam/MySQL_Dbeaver_Xampp_Localhost/assets/69331074/424049cd-1d63-4b95-b02f-51021309d5f7)
 
+
+[⬆️Back to Top](#Create-mySQL-server-on-Localhost-with-Xampp)
 
 ```Javascript
 
@@ -2837,6 +2849,9 @@ ALTER TABLE job_history ADD FOREIGN KEY (job_id) REFERENCES jobs(job_id);
 ALTER TABLE job_history ADD FOREIGN KEY (department_id) REFERENCES departments(department_id);
 
 ```
+
+[⬆️Back to Top](#Create-mySQL-server-on-Localhost-with-Xampp)
+
 you can save and rename this script too!
 
 
@@ -2857,6 +2872,8 @@ select first_name , last_name from employees ;
 
 ![image](https://github.com/amirh3sam/MySQL_Dbeaver_Xampp_Localhost/assets/69331074/943890f0-ceb1-4562-acf0-8f8eb59a0c97)
 
+
+[⬆️Back to Top](#Create-mySQL-server-on-Localhost-with-Xampp)
 
 ## SQL Query Examples
  more Example :
@@ -2990,6 +3007,7 @@ where EMPLOYEE_ID=(select MANAGER_ID from employees
 
 
 ```
+[⬆️Back to Top](#Create-mySQL-server-on-Localhost-with-Xampp)
 
 ## Run Query with IntelliJ
 

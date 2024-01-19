@@ -151,11 +151,12 @@ And it will lead you to a screen displaying the results:
 ![image](https://github.com/amirh3sam/CreateDataBase_Localhost/assets/69331074/180277fc-cae6-45e4-9071-993767f49b83)
 
 In this scenario, DBeaver is not required either.
+---------------------------------------------------------------------------------------------------------------------------------------------
 
-how to add HR database to our local host:
+✔️ How to add HR database to our local host:
 
 
-the souce of these HR schema comes from github page [SourecCode](https://github.com/nomemory/hr-schema-mysql/blob/master/hr-schema-mysql.sql) for refrence purpose.
+✔️ the souce of these HR schema comes from github page [SourecCode](https://github.com/nomemory/hr-schema-mysql/blob/master/hr-schema-mysql.sql) for refrence purpose.
 
 right-click on your database and choose SQL Editor / new SQL Script :
 

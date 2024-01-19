@@ -19,13 +19,13 @@ Set up a local MySQL server effortlessly with this guide, perfect for practicing
 
 
 ## Download Apps
---> To download [Xampp CLICK HERE](https://www.apachefriends.org/download.html)
+📂 To download [Xampp CLICK HERE](https://www.apachefriends.org/download.html)
 
---> To download [Dbeaver CLICK HERE](https://dbeaver.io/download/)
+📂 To download [Dbeaver CLICK HERE](https://dbeaver.io/download/)
 
---> To download [Vscode CLICK HERE](https://code.visualstudio.com/download)
+📂 To download [Vscode CLICK HERE](https://code.visualstudio.com/download)
 
---> TO download [IntelliJ CLICK HERE](https://www.jetbrains.com/idea/download/)
+📂 TO download [IntelliJ CLICK HERE](https://www.jetbrains.com/idea/download/)
 
 After downloading both, 
 
@@ -44,11 +44,11 @@ Now, you should have a screen that looks like this:
 
 ## Start Dbeaver
 
--> Create connection:
+✔️ Create connection:
 
 ![image](https://github.com/amirh3sam/CreateDataBase_Localhost/assets/69331074/3578cb50-f98d-4f6f-a542-c1fed9482d5c)
 
--> Click on the MySQL database.
+✔️ Click on the MySQL database.
 
 ![image](https://github.com/amirh3sam/CreateDataBase_Localhost/assets/69331074/9383b9b6-c56e-4a67-8db7-174125e8d9ab)
 
@@ -152,20 +152,20 @@ Now you can select your database :
 
 ![image](https://github.com/amirh3sam/CreateDataBase_Localhost/assets/69331074/d8662b1b-e71d-4fcf-8c33-50a9c029c361)
 
--> You can establish the table here and specify the number of columns.
+✔️ You can establish the table here and specify the number of columns.
 
 ![image](https://github.com/amirh3sam/CreateDataBase_Localhost/assets/69331074/622c03f5-eea9-48a4-8774-04b743398031)
 
--> The Insert tab allows you to input data into your table.
+✔️ The Insert tab allows you to input data into your table.
 
 ![image](https://github.com/amirh3sam/CreateDataBase_Localhost/assets/69331074/0b9a53f6-d795-47da-8721-9e788a3a0ba6)
 
 
--> In the Structure tab, you have the flexibility to modify your table's Name, Type, Collation, Attributes, Null settings, and add or remove elements from the table 
+✔️ In the Structure tab, you have the flexibility to modify your table's Name, Type, Collation, Attributes, Null settings, and add or remove elements from the table 
 
 ![image](https://github.com/amirh3sam/CreateDataBase_Localhost/assets/69331074/2f0b0131-6ee9-4f27-b918-9a9176a76681)
 
--> SQL tab let us to type our queries :
+✔️ SQL tab let us to type our queries :
 
 ![image](https://github.com/amirh3sam/CreateDataBase_Localhost/assets/69331074/5c4b2a2e-5700-41b1-a930-925c18e53c97)
 
@@ -2829,7 +2829,7 @@ VALUES (
     
 COMMIT;
 ```
-now last thing is the FOREIGN KEYS:
+✔️ now last thing is the FOREIGN KEYS:
 
 After you run all the insertion data we need to save and rename this script like this:
 
@@ -3016,17 +3016,17 @@ where EMPLOYEE_ID=(select MANAGER_ID from employees
 
 ## Run Query with IntelliJ
 
-you can practice with IntelliJ too :
+✔️ you can practice with IntelliJ too :
 
 Create new Project , Java - Maven 
 
-click on database icon on right side and click on + create new database choose mySQL
+click on database icon on right side and click on + create new database choose mySQL.
 
 ![image](https://github.com/amirh3sam/MySQL_Dbeaver_Xampp_Localhost/assets/69331074/8dfbf6e3-b02d-45f8-a040-9e5542ae0bd1)
 
-click on download
+✔️ click download.
 
-fillout the information like this blow:
+fill out the information like this:
 
 ![image](https://github.com/amirh3sam/MySQL_Dbeaver_Xampp_Localhost/assets/69331074/d76fc0be-124d-46b6-9ac7-6ceb41b223cb)
 
@@ -3034,7 +3034,7 @@ click Test connection and you should see this :
 
 ![image](https://github.com/amirh3sam/MySQL_Dbeaver_Xampp_Localhost/assets/69331074/161ca18e-3be5-4dab-a2a5-c45f8fc5e59b)
 
-apply and okey
+✔️ Apply and Okey.
 
 then on right top side of page choose your database click on schema in this case name of mydatabase is "mydatabase"
 
@@ -3048,41 +3048,41 @@ then type your query : and run it.
 
 ## Run Query with Vscode
 
-first need to install the extention Mysql
+✔️ First need to install the extention "Mysql"
 
 ![image](https://github.com/amirh3sam/MySQL_Dbeaver_Xampp_Localhost/assets/69331074/01914c4e-ec8a-4ef6-9ee7-ad4ae71689fb)
 
-click on + on mysql 
+Click on "+" under Mysql 
 
 ![image](https://github.com/amirh3sam/MySQL_Dbeaver_Xampp_Localhost/assets/69331074/e071c49c-5d3a-4322-8e18-79f494ec9781)
 
-type the host name "localhost" and enter
+type the host name "localhost" and Enter⌨️
 ![image](https://github.com/amirh3sam/MySQL_Dbeaver_Xampp_Localhost/assets/69331074/72ed31e1-dec4-4d02-9fad-9cbc5d04a321)
 
-type the user name "root" enter
+Type the user name ➡️ "root" Enter⌨️
 
 ![image](https://github.com/amirh3sam/MySQL_Dbeaver_Xampp_Localhost/assets/69331074/16ec4f78-d85a-426c-9695-a82238ec3a75)
 
-for passport just enter becasue there is no password and for port 3306 enter 
+For password just Enter without type anything becasue there is no password for this localHost and for Port type "3306" Enter ⌨️
 
 ![image](https://github.com/amirh3sam/MySQL_Dbeaver_Xampp_Localhost/assets/69331074/274e1047-02e5-494e-abda-5a0c9e1e22d5)
 
-next step just push Enter on keybord
+Next step just push Enter on keybord⌨️
 
 ![image](https://github.com/amirh3sam/MySQL_Dbeaver_Xampp_Localhost/assets/69331074/9e32c2ac-cc45-4415-9b81-2e519bb90d58)
 
 
-npw you have to see your connection on left side just like this :
+✔️ Now you have to see your connection on left side, just like this :
 
 ![image](https://github.com/amirh3sam/MySQL_Dbeaver_Xampp_Localhost/assets/69331074/4975799f-da02-4d9d-9e28-6afa4cd9db17)
 
 
-now click on connection and right click on your database  and choose New Query :
+✔️next click under connection , Right-click on your database name and choose "New Query" :
 
 ![image](https://github.com/amirh3sam/MySQL_Dbeaver_Xampp_Localhost/assets/69331074/85ec2fd8-dfeb-4dbb-9e0b-395245901b32)
 
 
-save it give it a name like P1 and right click on screen and choose Run Query and see the result.
+Save it ,give it a name like P1 and Right-click on screen and choose "Run Query" and see the result.
 
 ![image](https://github.com/amirh3sam/MySQL_Dbeaver_Xampp_Localhost/assets/69331074/d522f334-cbcd-4576-a244-880469e517bb)
 

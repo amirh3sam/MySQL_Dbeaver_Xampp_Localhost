@@ -9,7 +9,20 @@ Set up a local MySQL server effortlessly with this guide, perfect for practicing
 [download](#App-Downloads)
 
 
-##App Downloads
+
+
+
+
+
+
+
+
+
+
+
+
+
+## App Downloads
 --> To download [Xampp CLICK HERE](https://www.apachefriends.org/download.html)
 
 --> To download [Dbeaver CLICK HERE](https://dbeaver.io/download/)

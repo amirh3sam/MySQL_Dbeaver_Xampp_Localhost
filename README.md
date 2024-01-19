@@ -6,7 +6,21 @@
 
 Set up a local MySQL server effortlessly with this guide, perfect for practicing MySQL scripts without the need for an external server. Simply install XAMPP and DBeaver, and you're ready to run your SQL queries and hone your skills as much as you desire.
 
-[download](#App-Downloads)
+[Apps TO download](#App-Downloads)
+[Start Xampp App](#Start-Xampp)
+[Start Dbeaver App](#Start-Dbeaver)
+[Create Table](#Create_Table)
+[Insert to Table](#Insert-to-Table)
+[Execute the code](#Execute-the-code)
+[HR database](#HR-database)
+[SQL Query Examples](#SQL-Query-Examples)
+[Run Query with IntelliJ](#Run-Query-with-IntelliJ)
+
+
+
+
+
+
 
 
 
@@ -29,6 +43,7 @@ Set up a local MySQL server effortlessly with this guide, perfect for practicing
 
 After downloading both, 
 
+## Start Xampp
 START XAMPP CONTORL : make sure to click on "Start" in front of Apache and MySQL.
 
 Now, your local server is running.
@@ -40,7 +55,7 @@ Now, you should have a screen that looks like this:
 ![image](https://github.com/amirh3sam/Create-_mySQL_server_on_Localhost/assets/69331074/627fe72c-8a92-498d-a5bd-4366a47944b6)
 
 
-START Dbeaver :
+## Start Dbeaver
 
 -> Create connection:
 
@@ -69,6 +84,7 @@ This provides a method to initiate the creation of tables, insert data into them
 
 If we intend to create the table by typing the script, it is a good practice to do so.
 
+## Create Table
  The MySQL CREATE TABLE Statement:
  ```Javascript
 CREATE TABLE table_name (
@@ -98,7 +114,7 @@ After executing the code, you will observe this.
 
 ![image](https://github.com/amirh3sam/CreateDataBase_Localhost/assets/69331074/572aa68d-6145-43ab-a933-eea5465b440d)
 
-
+## Insert to Table
 It's time to populate the table with data using the MySQL INSERT INTO statement
 
 ```Javascript
@@ -121,6 +137,8 @@ VALUES ('12', 'Johnson', 'David', '123 St', 'Atlanta');
 ```
 
 ![image](https://github.com/amirh3sam/CreateDataBase_Localhost/assets/69331074/cde0f907-1898-4a30-b96d-272e41996b75)
+
+## Execute the code
 
 Execute the code, and you'll successfully add our initial data into the table.
 
@@ -168,8 +186,8 @@ And it will lead you to a screen displaying the results:
 
 In this scenario, DBeaver is not required either.
 ---------------------------------------------------------------------------------------------------------------------------------------------
-
-✔️ How to add HR database to our local host:
+## HR database
+✔️ add HR database to our local host:
 
 
 ✔️ the souce of these HR schema comes from github page [SourecCode](https://github.com/nomemory/hr-schema-mysql/blob/master/hr-schema-mysql.sql) for refrence purpose.
@@ -2858,6 +2876,8 @@ select first_name , last_name from employees ;
 
 ![image](https://github.com/amirh3sam/MySQL_Dbeaver_Xampp_Localhost/assets/69331074/943890f0-ceb1-4562-acf0-8f8eb59a0c97)
 
+
+## SQL Query Examples
  more Example :
 
  ```Javascript
@@ -2989,6 +3009,9 @@ where EMPLOYEE_ID=(select MANAGER_ID from employees
 
 
 ```
+
+## Run Query with IntelliJ
+
 you can practice with IntelliJ too :
 
 Create new Project , Java - Maven 

@@ -3025,3 +3025,4 @@ then type your query : and run it.
 
 Good luck guys enjoy!
 
+[⬆️Back to Top](#Create-mySQL-server-on-Localhost-with-Xampp)

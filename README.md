@@ -6,16 +6,16 @@
 
 Set up a local MySQL server effortlessly with this guide, perfect for practicing MySQL scripts without the need for an external server. Simply install XAMPP and DBeaver, and you're ready to run your SQL queries and hone your skills as much as you desire.
 
-[download Apps](#Download-Apps)</br>
-[Start Xampp App](#Start-Xampp)</br>
-[Start Dbeaver App](#Start-Dbeaver)</br>
-[Create Table](#Create_Table)</br>
-[Insert to Table](#Insert-to-Table)</br>
-[Execute the code](#Execute-the-code)</br>
-[HR database(Create Table -Insert data into Table)](#HR-database)</br>
-[SQL Query Examples](#SQL-Query-Examples)</br>
-[Run Query with IntelliJ](#Run-Query-with-IntelliJ)</br>
-[Run Query with Vscode](#Run-Query-with-Vscode)
+[➡️ Download Apps](#Download-Apps)</br>
+[➡️ Start Xampp App](#Start-Xampp)</br>
+[➡️ Start Dbeaver App](#Start-Dbeaver)</br>
+[➡️ Create Table](#Create_Table)</br>
+[➡️ Insert to Table](#Insert-to-Table)</br>
+[➡️ Execute the code](#Execute-the-code)</br>
+[➡️ HR database(Create Table -Insert data into Table)](#HR-database)</br>
+[➡️ SQL Query Examples](#SQL-Query-Examples)</br>
+[➡️ Run Query with IntelliJ](#Run-Query-with-IntelliJ)</br>
+[➡️ Run Query with Vscode](#Run-Query-with-Vscode)
 
 
 ## Download Apps

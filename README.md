@@ -15,6 +15,7 @@ Set up a local MySQL server effortlessly with this guide, perfect for practicing
 [HR database(Create Table -Insert data into Table)](#HR-database)</br>
 [SQL Query Examples](#SQL-Query-Examples)</br>
 [Run Query with IntelliJ](#Run-Query-with-IntelliJ)</br>
+[Run Query with Vscode](#Run-Query-with-Vscode)
 
 
 ## App Downloads
@@ -3039,6 +3040,48 @@ then type your query : and run it.
 
 ![image](https://github.com/amirh3sam/MySQL_Dbeaver_Xampp_Localhost/assets/69331074/2928061a-d54a-475a-aeb5-055c0aec6fdd)
 
+[⬆️Back to Top](#Create-mySQL-server-on-Localhost-with-Xampp)
+
+## Run Query with Vscode
+
+first need to install the extention Mysql
+
+
+![image](https://github.com/amirh3sam/MySQL_Dbeaver_Xampp_Localhost/assets/69331074/01914c4e-ec8a-4ef6-9ee7-ad4ae71689fb)
+
+
+click on + on mysql 
+![image](https://github.com/amirh3sam/MySQL_Dbeaver_Xampp_Localhost/assets/69331074/e071c49c-5d3a-4322-8e18-79f494ec9781)
+
+type the host name "localhost" and enter
+![image](https://github.com/amirh3sam/MySQL_Dbeaver_Xampp_Localhost/assets/69331074/72ed31e1-dec4-4d02-9fad-9cbc5d04a321)
+
+type the user name "root" enter
+
+![image](https://github.com/amirh3sam/MySQL_Dbeaver_Xampp_Localhost/assets/69331074/16ec4f78-d85a-426c-9695-a82238ec3a75)
+
+for passport just enter becasue there is no password and for port 3306 enter 
+
+![image](https://github.com/amirh3sam/MySQL_Dbeaver_Xampp_Localhost/assets/69331074/274e1047-02e5-494e-abda-5a0c9e1e22d5)
+
+next step just push Enter on keybord
+
+![image](https://github.com/amirh3sam/MySQL_Dbeaver_Xampp_Localhost/assets/69331074/9e32c2ac-cc45-4415-9b81-2e519bb90d58)
+
+
+npw you have to see your connection on left side just like this :
+
+![image](https://github.com/amirh3sam/MySQL_Dbeaver_Xampp_Localhost/assets/69331074/4975799f-da02-4d9d-9e28-6afa4cd9db17)
+
+
+now click on connection and right click on your database  and choose New Query :
+
+![image](https://github.com/amirh3sam/MySQL_Dbeaver_Xampp_Localhost/assets/69331074/85ec2fd8-dfeb-4dbb-9e0b-395245901b32)
+
+
+save it give it a name like P1 and right click on screen and choose Run Query and see the result.
+
+![image](https://github.com/amirh3sam/MySQL_Dbeaver_Xampp_Localhost/assets/69331074/d522f334-cbcd-4576-a244-880469e517bb)
 
 
 Good luck guys enjoy!

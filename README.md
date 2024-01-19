@@ -2919,11 +2919,11 @@ order by SALARY asc;
 select * from EMPLOYEES
 where first_name like 'B____';
 
-//display all employees where first_name startswith B
+/* display all employees where first_name startswith B */
 select * from EMPLOYEES
 where first_name like 'B%';
 
-//display 5 letter first names from employees  where middle char is z
+/* display 5 letter first names from employees  where middle char is z */
 select * from employees
 WHERE FIRST_NAME like '__z__';
 

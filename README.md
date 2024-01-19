@@ -1,4 +1,4 @@
-  # Create mySQL server on Localhost with Xampp
+## Create mySQL server on Localhost with Xampp
 
 ![mysql](https://github.com/amirh3sam/MySQL_Dbeaver_Xampp_Localhost/assets/69331074/29f75ea2-1bec-4e0e-98c7-ba90e5f12aaf)
 
@@ -6,7 +6,10 @@
 
 Set up a local MySQL server effortlessly with this guide, perfect for practicing MySQL scripts without the need for an external server. Simply install XAMPP and DBeaver, and you're ready to run your SQL queries and hone your skills as much as you desire.
 
+[download](#App-Downloads)
 
+
+##App Downloads
 --> To download [Xampp CLICK HERE](https://www.apachefriends.org/download.html)
 
 --> To download [Dbeaver CLICK HERE](https://dbeaver.io/download/)

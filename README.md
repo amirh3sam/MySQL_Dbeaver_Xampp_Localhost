@@ -12,7 +12,7 @@ Set up a local MySQL server effortlessly with this guide, perfect for practicing
 [Create Table](#Create_Table)</br>
 [Insert to Table](#Insert-to-Table)</br>
 [Execute the code](#Execute-the-code)</br>
-[HR database(Create Table -Insert data in to Table)](#HR-database)</br>
+[HR database(Create Table -Insert data into Table)](#HR-database)</br>
 [SQL Query Examples](#SQL-Query-Examples)</br>
 [Run Query with IntelliJ](#Run-Query-with-IntelliJ)</br>
 

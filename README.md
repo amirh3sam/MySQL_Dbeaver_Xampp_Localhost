@@ -23,6 +23,10 @@ Set up a local MySQL server effortlessly with this guide, perfect for practicing
 
 --> To download [Dbeaver CLICK HERE](https://dbeaver.io/download/)
 
+--> To download [Vscode CLICK HERE](https://code.visualstudio.com/download)
+
+--> TO download [IntelliJ](https://www.jetbrains.com/idea/download/)
+
 After downloading both, 
 
 ## Start Xampp

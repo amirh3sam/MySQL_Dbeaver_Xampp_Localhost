@@ -10,7 +10,7 @@ Set up a local MySQL server effortlessly with this guide, perfect for practicing
 [Start Xampp App](#Start-Xampp)</br>
 [Start Dbeaver App](#Start-Dbeaver)</br>
 [Create Table](#Create_Table)</br>
-[Insert to Table](#Insert-to-Table)
+[Insert to Table](#Insert-to-Table)</br>
 [Execute the code](#Execute-the-code)</br>
 [HR database](#HR-database)</br>
 [SQL Query Examples](#SQL-Query-Examples)</br>

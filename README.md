@@ -2973,6 +2973,33 @@ where EMPLOYEE_ID=(select MANAGER_ID from employees
 
 
 ```
+you can practice with IntelliJ too :
+
+Create new Project , Java - Maven 
+
+click on database icon on right side and click on + create new database choose mySQL
+
+![image](https://github.com/amirh3sam/MySQL_Dbeaver_Xampp_Localhost/assets/69331074/8dfbf6e3-b02d-45f8-a040-9e5542ae0bd1)
+
+click on download
+
+fillout the information like this blow:
+
+![image](https://github.com/amirh3sam/MySQL_Dbeaver_Xampp_Localhost/assets/69331074/d76fc0be-124d-46b6-9ac7-6ceb41b223cb)
+
+click Test connection and you should see this :
+
+![image](https://github.com/amirh3sam/MySQL_Dbeaver_Xampp_Localhost/assets/69331074/161ca18e-3be5-4dab-a2a5-c45f8fc5e59b)
+
+apply and okey
+
+then on right top side of page choose your database click on schema in this case name of mydatabase is "mydatabase"
+
+![image](https://github.com/amirh3sam/MySQL_Dbeaver_Xampp_Localhost/assets/69331074/43ce942d-0296-4525-ad71-4ca4c468214d)
+
+then type your query : and run it.
+
+![image](https://github.com/amirh3sam/MySQL_Dbeaver_Xampp_Localhost/assets/69331074/2928061a-d54a-475a-aeb5-055c0aec6fdd)
 
 
 

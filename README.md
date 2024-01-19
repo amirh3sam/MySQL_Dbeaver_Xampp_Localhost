@@ -3050,11 +3050,10 @@ then type your query : and run it.
 
 first need to install the extention Mysql
 
-
 ![image](https://github.com/amirh3sam/MySQL_Dbeaver_Xampp_Localhost/assets/69331074/01914c4e-ec8a-4ef6-9ee7-ad4ae71689fb)
 
-
 click on + on mysql 
+
 ![image](https://github.com/amirh3sam/MySQL_Dbeaver_Xampp_Localhost/assets/69331074/e071c49c-5d3a-4322-8e18-79f494ec9781)
 
 type the host name "localhost" and enter

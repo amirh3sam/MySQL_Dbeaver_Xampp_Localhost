@@ -2844,67 +2844,67 @@ select first_name , last_name from employees ;
 
  more Example :
 
- ```Mysql
--- display firstname and lastname from employeeid 110
+ ```Javascript
+//display firstname and lastname from employeeid 110
 select * from employees
 where employee_id = 110;
 
--- display job_id and job title from jobs table
+//display job_id and job title from jobs table
 select job_id,job_title from jobs;
 
--- display all different names from employees
+//display all different names from employees
 select distinct FIRST_NAME from EMPLOYEES;
 
 select * from EMPLOYEES
-where FIRST_NAME='David'; -- > '' it is case sensitive
+where FIRST_NAME='David';// '' it is case sensitive
 
--- display firstname,lastname,salary where firstname is Peter
+//display firstname,lastname,salary where firstname is Peter
 select first_name,last_name,salary from employees
 where first_name='Peter';
 
--- display email of who is making less than 6000
+//display email of who is making less than 6000
 select first_name,email from EMPLOYEES
 where SALARY<6000;
 
--- display all info from employees where employee_id between 100 and 120
+//display all info from employees where employee_id between 100 and 120
 select * from EMPLOYEES
-where EMPLOYEE_ID between 100 and 120;  -- > range is included
+where EMPLOYEE_ID between 100 and 120;  // range is included
 
--- display all info from employees who is working as IT_PROG or MK_MAN
--- solution 1
+//display all info from employees who is working as IT_PROG or MK_MAN
+//solution 1
 select * from EMPLOYEES
 where JOB_ID='IT_PROG' or JOB_ID='MK_MAN' or JOB_ID='SA_REP';
 
 select * from EMPLOYEES
 order by SALARY asc;
 
--- display all employees where first_name startswith B and lenght of it 5 letter
+//display all employees where first_name startswith B and lenght of it 5 letter
 select * from EMPLOYEES
 where first_name like 'B____';
 
- -- display all employees where first_name startswith B
+//display all employees where first_name startswith B
 select * from EMPLOYEES
 where first_name like 'B%';
 
--- display 5 letter first names from employees  where middle char is z
+//display 5 letter first names from employees  where middle char is z
 select * from employees
 WHERE FIRST_NAME like '__z__';
 
 
--- display firstnames where second letter is a
+//display firstnames where second letter is a
 select first_name from EMPLOYEES
 where FIRST_NAME like '_a%';
 
--- Task 4:display all Countries where Region_ID is 1 and Country_Name is not Belgium
+//Task 4:display all Countries where Region_ID is 1 and Country_Name is not Belgium
 select * from COUNTRIES
 where REGION_ID=1 and COUNTRY_NAME!='Belgium';
 
 
- -- How many departments we have ?
+//How many departments we have ?
 select * from departments;
 select count(*) from departments;
 
--- how many employees working as IT_PROG or SA_REP
+//how many employees working as IT_PROG or SA_REP
 select count(*) from EMPLOYEES
 where JOB_ID in ('IT_PROG','SA_REP');
 
@@ -2912,57 +2912,57 @@ select round(avg(salary),3) from EMPLOYEES;  //  6462.364
 
 
 
--- get me total salary for EACH department from Employees table
+//get me total salary for EACH department from Employees table
 select DEPARTMENT_ID,sum(salary),count(*),max(salary),min(salary),round(avg(salary)) from EMPLOYEES
 where DEPARTMENT_ID is not null   -- to remove null department id from result
 group by DEPARTMENT_ID;
 
 
--- order results based on max salary in asc
+//order results based on max salary in asc
 select DEPARTMENT_ID,sum(salary),count(*),max(salary),min(salary),round(avg(salary)) from EMPLOYEES
 where DEPARTMENT_ID is not null   -- to remove null department id from result
 group by DEPARTMENT_ID
 order by max(salary);
 
--- display department id where employees count is bigger than 5
+//display department id where employees count is bigger than 5
 select DEPARTMENT_ID,count(*) from EMPLOYEES
 group by DEPARTMENT_ID
 having count(*)>5 ;
 
 
--- IQ --> display duplicate(more than one) firstnames from employees table
+//IQ --> display duplicate(more than one) firstnames from employees table
 select first_name,count(*) from EMPLOYEES
 group by first_name
 having count(*)>1
 order by 2 desc;
 
--- display annual salary for all employees as annual_salary
+//display annual salary for all employees as annual_salary
 	select FIRST_NAME, SALARY*12  from EMPLOYEES;
 
-   -- find second highest dynamicly
+//find second highest dynamicly
         select max(salary) from EMPLOYEES
         where salary < (select max(salary) from EMPLOYEES); 
 
-            -- how many employee we have for each department name
+//how many employee we have for each department name
     select DEPARTMENT_NAME,count(*) from departments d left join employees e
            on d.DEPARTMENT_ID = e.DEPARTMENT_ID
     group by DEPARTMENT_NAME;
    
    
-      -- LEFT  JOIN
+//LEFT  JOIN
     select FIRST_NAME,DEPARTMENT_NAME from departments d left join employees e
         on d.DEPARTMENT_ID = e.DEPARTMENT_ID;
        
-       
---6.Display All cities and related country names  including with countries without city
+
+// Display All cities and related country names  including with countries without city
     select * from COUNTRIES;
     select distinct COUNTRY_ID from LOCATIONS;
    
-    -- RIGHT JOIN
+// RIGHT JOIN
     select CITY,COUNTRY_NAME from LOCATIONS L right join COUNTRIES C
         on L.COUNTRY_ID = C.COUNTRY_ID;
        
- -- 7. Display manager name of 'Neena'
+// Display manager name of 'Neena'
 
 select MANAGER_ID from employees
 where FIRST_NAME='Neena';

@@ -2844,7 +2844,7 @@ select first_name , last_name from employees ;
 
  more Example :
 
- ```Javascript
+ ```Mysql
 -- display firstname and lastname from employeeid 110
 select * from employees
 where employee_id = 110;

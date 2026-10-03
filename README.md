@@ -1,22 +1,43 @@
-## Create mySQL server on Localhost with Xampp
+<p align="center">
+  <img src="assets/banner.svg" alt="MySQL on Localhost. Run your own MySQL server with XAMPP and DBeaver, then practice on a real HR database." width="100%">
+</p>
 
-![mysql](https://github.com/amirh3sam/MySQL_Dbeaver_Xampp_Localhost/assets/69331074/29f75ea2-1bec-4e0e-98c7-ba90e5f12aaf)
+<p align="center">
+  <img alt="Cost: free" src="https://img.shields.io/badge/cost-free-3fe0c5?style=flat-square&labelColor=0a0e14">
+  <img alt="No cloud account" src="https://img.shields.io/badge/account-not%20needed-3fe0c5?style=flat-square&labelColor=0a0e14">
+  <img alt="MySQL" src="https://img.shields.io/badge/engine-MySQL-a98bff?style=flat-square&labelColor=0a0e14">
+  <img alt="XAMPP" src="https://img.shields.io/badge/server-XAMPP-a98bff?style=flat-square&labelColor=0a0e14">
+  <img alt="DBeaver" src="https://img.shields.io/badge/tool-DBeaver-a98bff?style=flat-square&labelColor=0a0e14">
+  <img alt="HR practice database included" src="https://img.shields.io/badge/includes-HR%20database-f5c451?style=flat-square&labelColor=0a0e14">
+  <a href="https://github.com/amirh3sam/MySQL_Dbeaver_Xampp_Localhost/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/amirh3sam/MySQL_Dbeaver_Xampp_Localhost?style=flat-square&labelColor=0a0e14&color=f5c451"></a>
+</p>
 
- 
+<p align="center">
+  <a href="#download-apps"><b>Download</b></a> ·
+  <a href="#start-xampp">Start XAMPP</a> ·
+  <a href="#start-dbeaver">Start DBeaver</a> ·
+  <a href="#create-table">Create a table</a> ·
+  <a href="#hr-database">HR database</a> ·
+  <a href="#sql-query-examples">Query examples</a>
+</p>
 
-Set up a local MySQL server effortlessly with this guide, perfect for practicing MySQL scripts without the need for an external server. Simply install XAMPP and DBeaver, and you're ready to run your SQL queries and hone your skills as much as you desire.
+<p align="center">
+  <img src="https://github.com/amirh3sam/MySQL_Dbeaver_Xampp_Localhost/assets/69331074/29f75ea2-1bec-4e0e-98c7-ba90e5f12aaf" alt="MySQL running on localhost." width="100%">
+</p>
 
-[➡️ Download Apps](#Download-Apps)</br>
-[➡️ Start Xampp App](#Start-Xampp)</br>
-[➡️ Start Dbeaver App](#Start-Dbeaver)</br>
-[➡️ Create Table](#Create_Table)</br>
-[➡️ Insert to Table](#Insert-to-Table)</br>
-[➡️ Execute the code](#Execute-the-code)</br>
-[➡️ HR database(Create Table -Insert data into Table)](#HR-database)</br>
-[➡️ SQL Query Examples](#SQL-Query-Examples)</br>
-[➡️ Run Query with IntelliJ](#Run-Query-with-IntelliJ)</br>
-[➡️ Run Query with Vscode](#Run-Query-with-Vscode)
+To practice SQL you need a database to practice on. Online sandboxes reset when you close the tab, and a cloud database wants a credit card for something you are only learning with.
 
+So run one on your own machine. **XAMPP** gives you a MySQL server with an installer and a start button, and **DBeaver** gives you somewhere to write queries and look at the results. Both are free, both work on Windows, macOS and Linux, and neither asks you to create an account.
+
+This guide goes from nothing installed to running real queries against a full HR database with employees, departments, jobs and salaries.
+
+- **Two installers and a start button.** No Docker, no command line, no configuration files.
+- **A complete HR database** to import, so you have realistic tables to query instead of three rows you typed yourself.
+- **Query examples to work through**, from `SELECT` to joins.
+- **Also from IntelliJ and VS Code**, if you would rather not leave your editor.
+
+> [!TIP]
+> If you would rather practice than install, [sql-practice-lab](https://github.com/amirh3sam/sql-practice-lab) has two ready-made databases and 100 questions with tested answers, and it needs no server at all.
 
 ## Download Apps
 📂 To download [Xampp CLICK HERE](https://www.apachefriends.org/download.html)
@@ -53,7 +74,6 @@ Now, you should have a screen that looks like this:
 Keep the settings as shown in the image: the username is "root," no password is set, and the port is 3306.
 
 ![image](https://github.com/amirh3sam/CreateDataBase_Localhost/assets/69331074/bdbd7da7-7166-423f-bc0a-59c9bd78a314)
-
 
 If prompted to download, click on the download option.
 
@@ -141,7 +161,6 @@ SELECT * FROM PERSONS;
 
  ![image](https://github.com/amirh3sam/CreateDataBase_Localhost/assets/69331074/1d04f0f6-7f25-4ee8-a0db-3c1b654645fd)
 
-
 ------> Another method is to open your web browser and click on "Admin" next to MYSQL in the XAMPP app.
 
 ![image](https://github.com/amirh3sam/CreateDataBase_Localhost/assets/69331074/3aff9540-b909-417e-b7d2-43e5064e6952)
@@ -157,7 +176,6 @@ Now you can select your database :
 ✔️ The Insert tab allows you to input data into your table.
 
 ![image](https://github.com/amirh3sam/CreateDataBase_Localhost/assets/69331074/0b9a53f6-d795-47da-8721-9e788a3a0ba6)
-
 
 ✔️ In the Structure tab, you have the flexibility to modify your table's Name, Type, Collation, Attributes, Null settings, and add or remove elements from the table 
 
@@ -183,7 +201,6 @@ In this scenario, DBeaver is not required either.
 ## HR database
 ✔️ add HR database to our local host:
 
-
 ✔️ the souce of these HR schema comes from github page [SourecCode](https://github.com/nomemory/hr-schema-mysql/blob/master/hr-schema-mysql.sql) for refrence purpose.
 
 right-click on your database and choose SQL Editor / new SQL Script :
@@ -205,7 +222,6 @@ CREATE TABLE countries (
 	region_id INT (11) UNSIGNED NOT NULL,
 	PRIMARY KEY (country_id)
 );
-
 
 CREATE TABLE locations (
 	location_id INT (11) UNSIGNED NOT NULL AUTO_INCREMENT,
@@ -261,7 +277,6 @@ ALTER TABLE job_history ADD UNIQUE INDEX (
 	start_date
 	);
 
-
 CREATE VIEW emp_details_view
 AS
 SELECT e.employee_id,
@@ -294,7 +309,6 @@ WHERE e.department_id = d.department_id
 
 ```
 
-
 After you run all the table thats mean you create all table that we need you can save and rename this script like this:
 
 ![image](https://github.com/amirh3sam/MySQL_Dbeaver_Xampp_Localhost/assets/69331074/13568dcf-b230-4d64-80b7-b461016da92c)
@@ -309,9 +323,7 @@ easy way to run all at one time is to select all of them then click on thrid run
 
 ![image](https://github.com/amirh3sam/MySQL_Dbeaver_Xampp_Localhost/assets/69331074/32560c90-9d46-4aad-b3b5-8b5a109d0342)
 
-
 ![image](https://github.com/amirh3sam/MySQL_Dbeaver_Xampp_Localhost/assets/69331074/424049cd-1d63-4b95-b02f-51021309d5f7)
-
 
 [⬆️Back to Top](#Create-mySQL-server-on-Localhost-with-Xampp)
 
@@ -2833,7 +2845,6 @@ After you run all the insertion data we need to save and rename this script like
 
 ![image](https://github.com/amirh3sam/MySQL_Dbeaver_Xampp_Localhost/assets/69331074/31bbb8c6-6b40-4467-926d-553db7611b88)
 
-
 again right-click on your database and choose SQL Editor / new SQL Script :
 
 copy and past these codes:
@@ -2857,11 +2868,9 @@ ALTER TABLE job_history ADD FOREIGN KEY (department_id) REFERENCES departments(d
 
 you can save and rename this script too!
 
-
 and run all of them you gonne see 10 qurey done!
 
 ![image](https://github.com/amirh3sam/MySQL_Dbeaver_Xampp_Localhost/assets/69331074/deca7147-b7a9-4c83-9670-4a017e7a59b7)
-
 
 again right-click on your database and choose SQL Editor / new SQL Script :
 
@@ -2874,7 +2883,6 @@ select first_name , last_name from employees ;
 ```
 
 ![image](https://github.com/amirh3sam/MySQL_Dbeaver_Xampp_Localhost/assets/69331074/943890f0-ceb1-4562-acf0-8f8eb59a0c97)
-
 
 [⬆️Back to Top](#Create-mySQL-server-on-Localhost-with-Xampp)
 
@@ -2927,7 +2935,6 @@ where first_name like 'B%';
 select * from employees
 WHERE FIRST_NAME like '__z__';
 
-
 //display firstnames where second letter is a
 select first_name from EMPLOYEES
 where FIRST_NAME like '_a%';
@@ -2935,7 +2942,6 @@ where FIRST_NAME like '_a%';
 //Task 4:display all Countries where Region_ID is 1 and Country_Name is not Belgium
 select * from COUNTRIES
 where REGION_ID=1 and COUNTRY_NAME!='Belgium';
-
 
 //How many departments we have ?
 select * from departments;
@@ -2947,13 +2953,10 @@ where JOB_ID in ('IT_PROG','SA_REP');
 
 select round(avg(salary),3) from EMPLOYEES;  //  6462.364
 
-
-
 //get me total salary for EACH department from Employees table
 select DEPARTMENT_ID,sum(salary),count(*),max(salary),min(salary),round(avg(salary)) from EMPLOYEES
 where DEPARTMENT_ID is not null   -- to remove null department id from result
 group by DEPARTMENT_ID;
-
 
 //order results based on max salary in asc
 select DEPARTMENT_ID,sum(salary),count(*),max(salary),min(salary),round(avg(salary)) from EMPLOYEES
@@ -2965,7 +2968,6 @@ order by max(salary);
 select DEPARTMENT_ID,count(*) from EMPLOYEES
 group by DEPARTMENT_ID
 having count(*)>5 ;
-
 
 //IQ --> display duplicate(more than one) firstnames from employees table
 select first_name,count(*) from EMPLOYEES
@@ -3007,7 +3009,6 @@ where FIRST_NAME='Neena';
 select FIRST_NAME,LAST_NAME from EMPLOYEES
 where EMPLOYEE_ID=(select MANAGER_ID from employees
                    where FIRST_NAME='Neena');
-
 
 ```
 [⬆️Back to Top](#Create-mySQL-server-on-Localhost-with-Xampp)
@@ -3069,22 +3070,24 @@ Next step just push Enter on keybord⌨️
 
 ![image](https://github.com/amirh3sam/MySQL_Dbeaver_Xampp_Localhost/assets/69331074/9e32c2ac-cc45-4415-9b81-2e519bb90d58)
 
-
 ✔️ Now you have to see your connection on left side, just like this :
 
 ![image](https://github.com/amirh3sam/MySQL_Dbeaver_Xampp_Localhost/assets/69331074/4975799f-da02-4d9d-9e28-6afa4cd9db17)
-
 
 ✔️next click under connection , Right-click on your database name and choose "New Query" :
 
 ![image](https://github.com/amirh3sam/MySQL_Dbeaver_Xampp_Localhost/assets/69331074/85ec2fd8-dfeb-4dbb-9e0b-395245901b32)
 
-
 Save it ,give it a name like P1 and Right-click on screen and choose "Run Query" and see the result.
 
 ![image](https://github.com/amirh3sam/MySQL_Dbeaver_Xampp_Localhost/assets/69331074/d522f334-cbcd-4576-a244-880469e517bb)
 
-
 Good luck guys enjoy!
 
 [⬆️Back to Top](#Create-mySQL-server-on-Localhost-with-Xampp)
+
+## About
+
+Made by **[AmirHesam Tech](https://amirhesamtech.com)**. More tech content on TikTok: [@techwithamirh3sam](https://www.tiktok.com/@techwithamirh3sam).
+
+If this guide saved you some time, please give it a star. It helps other people find it.

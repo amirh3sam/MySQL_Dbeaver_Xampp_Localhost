@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" width="1200" height="300" role="img" aria-label="MySQL on Localhost. Run your own MySQL server with XAMPP and DBeaver, then practice on a real HR database.">
+<defs>
+<linearGradient id="rule" x1="0" y1="0" x2="1" y2="0">
+<stop offset="0" stop-color="#3fe0c5"/><stop offset="0.55" stop-color="#a98bff"/>
+<stop offset="1" stop-color="#f5c451"/></linearGradient>
+<linearGradient id="glow" x1="1" y1="0" x2="0" y2="0">
+<stop offset="0" stop-color="#f5c451" stop-opacity="0.16"/>
+<stop offset="1" stop-color="#f5c451" stop-opacity="0"/></linearGradient>
+<linearGradient id="fade" x1="1" y1="0" x2="0" y2="0">
+<stop offset="0" stop-color="#fff" stop-opacity="1"/>
+<stop offset="0.55" stop-color="#fff" stop-opacity="0.45"/>
+<stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>
+<mask id="softright"><rect x="620" y="0" width="580" height="300" fill="url(#fade)"/></mask>
+<pattern id="dots" width="22" height="22" patternUnits="userSpaceOnUse">
+<circle cx="1.6" cy="1.6" r="1.6" fill="#f5c451" fill-opacity="0.22"/></pattern>
+</defs>
+<rect width="1200" height="300" fill="#0a0e14"/>
+<g mask="url(#softright)">
+<rect x="620" y="0" width="580" height="300" fill="url(#dots)"/>
+<rect x="620" y="0" width="580" height="300" fill="url(#glow)"/>
+<circle cx="1040" cy="150" r="46" fill="none" stroke="#f5c451" stroke-opacity="0.40" stroke-width="1.5"/>
+<circle cx="1040" cy="150" r="78" fill="none" stroke="#a98bff" stroke-opacity="0.33" stroke-width="1.5"/>
+<circle cx="1040" cy="150" r="110" fill="none" stroke="#f5c451" stroke-opacity="0.26" stroke-width="1.5"/>
+<circle cx="1040" cy="150" r="142" fill="none" stroke="#a98bff" stroke-opacity="0.19" stroke-width="1.5"/>
+</g>
+<circle cx="1040" cy="150" r="7" fill="#f5c451"/>
+<rect x="0.5" y="0.5" width="1199" height="299" fill="none" stroke="#1b2430"/>
+<rect x="72" y="46" width="9" height="9" fill="#3fe0c5"/>
+<text x="94" y="55" font-family="'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="15" font-weight="600" letter-spacing="2.4" fill="#3fe0c5">AMIRHESAM TECH</text>
+<rect x="1055" y="38" width="73" height="26" rx="13" fill="none" stroke="#f5c451" stroke-opacity="0.5"/>
+<text x="1092" y="55" font-family="'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="12.5" font-weight="600" letter-spacing="1.8" fill="#f5c451" text-anchor="middle">GUIDE</text>
+<text x="72" y="144" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="64" font-weight="700" fill="#e8edf2">MySQL on Localhost</text>
+<text x="72" y="218" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="19" fill="#8b97a6">Run your own MySQL server with XAMPP and DBeaver, then practice on a real HR</text>
+<text x="72" y="244" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="19" fill="#8b97a6">database.</text>
+<rect x="0" y="296" width="1200" height="4" fill="url(#rule)"/>
+</svg>
